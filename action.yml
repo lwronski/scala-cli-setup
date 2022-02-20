@@ -1,11 +1,9 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-inputs:
-  milliseconds: # change this
-    required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+name: 'scala-cli-setup'
+description: 'Use Scala CLI to run your Scala code'
+author: 'VirtusLab'
+outputs:
+  scala-cli-version:
+    description: 'Version of the installed Scala CLI'
 runs:
   using: 'node12'
   main: 'dist/index.js'
